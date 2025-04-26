@@ -57,7 +57,7 @@ void sort() {
  temp = elist.data[j];
  elist.data[j] = elist.data[j + 1];
  elist.data[j + 1] = temp;
- 
+ }
 }
  void print() {
  int i, cost = 0;
